@@ -3,9 +3,9 @@
   --secondary-color: #e0b354;
   --dark-grey: #2b2b2b;
   --light-grey: #d9d9d9;
-  --white: #FFFFFF;
+  --white: #ffffff;
   --active-focus: #489c79;
-  --grid-bg-color: #FFFAF0;
+  --grid-bg-color: #fffaf0;
   --primary-font-size: 16px;
   --primary-font-weight: 400;
   --h1-font-size: 30px;
@@ -14,7 +14,7 @@
   --h2-font-weight: 700;
   --h3-font-size: 18px;
   --h3-font-weight: 700;
-  --button-text-primary: #FFFFFF;
+  --button-text-primary: #ffffff;
   --sun-transition-color-0: #edc655;
   --sun-transition-color-50: #fcffad;
   --sun-transition-color-100: #f76414;
@@ -26,7 +26,7 @@
 
 body {
   background-color: var(--light-grey);
-  font-family: 'PT Serif', serif;
+  font-family: "PT Serif", serif;
   font-weight: var(--primary-font-weight);
   font-size: var(--primary-font-size);
   line-height: 1.6;
@@ -51,22 +51,21 @@ a {
   color: var(--primary-color);
 }
 
-a:hover, a:focus {
-  cursor:pointer;
+a:hover,
+a:focus {
+  cursor: pointer;
   opacity: 0.8;
   text-decoration: none;
   transition: 0.2s;
 }
 
-a:visited, a:focus {
-  color: var(--white);
-}
-
-a:active, a:focus {
+a:active,
+a:focus {
   color: var(--active-focus);
 }
 
-.button, button{
+.button,
+button {
   border: none;
   display: inline-block;
   font-family: inherit;
@@ -76,7 +75,7 @@ a:active, a:focus {
   text-decoration: none;
   padding: 10px;
   border-radius: 3px;
-  border-bottom: 2px solid rgba(0,0,0,0.3);
+  border-bottom: 2px solid rgba(0, 0, 0, 0.3);
   transition-duration: 0.2s;
   transition-property: opacity;
 }
@@ -133,7 +132,7 @@ button:hover button:focus .button:hover .button:focus {
   margin-top: -5%;
 }
 
-table{
+table {
   width: 50%;
 }
 
@@ -179,11 +178,11 @@ input {
 }
 
 .contact-form {
-  display:flex;
+  display: flex;
   flex-direction: column;
   justify-content: center;
   text-align: center;
-  width:25%;
+  width: 25%;
   margin: 0 auto;
 }
 
@@ -215,8 +214,8 @@ input {
 }
 
 .social__logo:hover {
-  opacity: .5;
-  transition: all .25s ease-in-out;
+  opacity: 0.5;
+  transition: all 0.25s ease-in-out;
 }
 
 @media all and (max-width: 500px) {
@@ -224,7 +223,7 @@ input {
     grid-template-columns: 1fr;
   }
 }
-@media all and (min-width: 500px) and (max-width: 750px){
+@media all and (min-width: 500px) and (max-width: 750px) {
   .grid {
     grid-template-columns: 1fr 1fr;
   }

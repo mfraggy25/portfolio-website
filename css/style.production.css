@@ -39,10 +39,6 @@ a:focus {
   transition: 0.2s;
 }
 
-a:visited {
-  color: #ffffff;
-}
-
 a:focus {
   color: #ffffff;
 }
@@ -98,7 +94,6 @@ button:hover button:focus .button:hover .button:focus {
 .page-header {
   display: -webkit-box;
   display: -ms-flexbox;
-  display: flex;
   width: 100%;
   padding: 20px;
   -webkit-box-flex: 0;
