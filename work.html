@@ -1,108 +1,168 @@
 <!DOCTYPE html>
 <html>
-
-<head>
-    <meta charset="utf-8">
+  <head>
+    <meta charset="utf-8" />
     <title>Michael Fragiskatos - Portfolio Website</title>
-    <link rel="shortcut icon" href= "img/favicon-32x32.png" />
-    <link href="https://fonts.googleapis.com/css?family=PT+Serif&display=swap" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="css/style.production.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-</head>
+    <link rel="shortcut icon" href="img/favicon-32x32.png" />
+    <link
+      href="https://fonts.googleapis.com/css?family=PT+Serif&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" type="text/css" href="css/style.production.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+  </head>
 
   <body>
     <header class="page-header">
-       <img src="img/logo3.png" alt="logo" class="page-header__item">
-       <nav class="main-navigation page-header__item">
-          <ul role="menubar" class="navigation-list">
-             <li role="presentation">
-                <a href="index.html" role="menuitem" class="navigation-list__item">Home</a>
-             </li>
-             <li role="presentation">
-                <a href="about.html" role="menuitem" class="navigation-list__item">About</a>
-             </li>
-             <li role="presentation">
-                <a href="work.html" role="menuitem" class="navigation-list__item navigation-list__item--active">Work</a>
-             </li>
-             <li role="presentation">
-                <a href="contact.html" role="menuitem" class="navigation-list__item">Contact</a>
-             </li>
-          </ul>
-       </nav>
+      <img src="img/logo3.png" alt="logo" class="page-header__item" />
+      <nav class="main-navigation page-header__item">
+        <ul role="menubar" class="navigation-list">
+          <li role="presentation">
+            <a href="index.html" role="menuitem" class="navigation-list__item"
+              >Home</a
+            >
+          </li>
+          <li role="presentation">
+            <a href="about.html" role="menuitem" class="navigation-list__item"
+              >About</a
+            >
+          </li>
+          <li role="presentation">
+            <a
+              href="work.html"
+              role="menuitem"
+              class="navigation-list__item
+                     navigation-list__item--active"
+              >Work</a
+            >
+          </li>
+          <li role="presentation">
+            <a href="contact.html" role="menuitem" class="navigation-list__item"
+              >Contact</a
+            >
+          </li>
+        </ul>
+      </nav>
     </header>
 
     <!-- Main content -->
     <section class="contact">
-       <h1>Work</h1>
-        <div class="grid">
-         <div class="grid__item">
-          <h2>Mobile web app</h2>
+      <h1>Work</h1>
+      <div class="grid">
+        <div class="grid__item">
+          <h2>Pokedex App</h2>
+          <img src="img/Pokedex.PNG" width="350" height="275" />
           <p>
-             Within this project, I was responsible for the frontend. It’s written in React.js. Additionally, I've created the HTML and CSS templates.
+            Developed using jQuery and Bootstrap framework, this app gives a
+            user the ability to search through a collection of Pokemon from a
+            preloaded API and can view statistics about them by clicking on the
+            name.
           </p>
-          <a href="#">See project on GitHub</a>
-         </div>
-         <div class="grid__item">
-          <h2>Native MacOS Application</h2>
-          <p>
-             Within this project, I was responsible for the frontend. It was written in JavaFX.
-          </p>
-          <a href="#">See project on GitHub</a>
-         </div>
-         <div class="grid__item">
-          <h2>Native MacOS Application</h2>
-          <p>
-             Within this project, I was responsible for the frontend. It was written in JavaFX.
-          </p>
-          <a href="#">See project on GitHub</a>
-         </div>
-         <div class="grid__item">
-          <h2>Native MacOS Application</h2>
-          <p>
-             Within this project, I was responsible for the frontend. It was written in JavaFX.
-          </p>
-          <a href="#">See project on GitHub</a>
-         </div>
-         <div class="grid__item">
-          <h2>Mobile web app</h2>
-          <p>
-             Within this project, I was responsible for the frontend. It’s written in React.js. Additionally, I've created the HTML and CSS templates.
-          </p>
-          <a href="#">See project on GitHub</a>
-         </div>
-         <div class="grid__item">
-          <h2>Mobile web app</h2>
-          <p>
-             Within this project, I was responsible for the frontend. It’s written in React.js. Additionally, I've created the HTML and CSS templates.
-          </p>
-          <a href="#">See project on GitHub</a>
-         </div>
+          <a href="https://github.com/mfraggy25/pokemon-app">GitHub Project</a>
+          <br />
+          <a href="https://mfraggy25.github.io/pokemon-app/">Hosted Site</a>
         </div>
+        <div class="grid__item">
+          <h2>My Movies App</h2>
+          <img src="img/MyMovies.PNG" width="350" height="275" />
+          <p>
+            Using the Javascript development of the MERN (MongoDB, Express,
+            React, Node.js) stack, this app allows users to view information
+            about different movies including the details on the genre and
+            director. They are also able to update their own personal
+            information and can create their own list of favourite movies from
+            the selection given.
+          </p>
+          <a href="https://github.com/mfraggy25/my-movies">GitHub Project</a>
+          <br />
+          <a href="https://movieswithmichaelf.herokuapp.com/client"
+            >Hosted Site</a
+          >
+        </div>
+        <div class="grid__item">
+          <h2>Language Quiz App</h2>
+          <img src="img/Quiz.PNG" />
+          <p>
+            Created a quiz app to learn different languages using Angular
+            framework and TypeScript. This allows a user to select a quiz with
+            multiple choice questions and can view their results once completed.
+          </p>
+          <a href="https://github.com/mfraggy25/LanguageQuizzes"
+            >GitHub Project</a
+          >
+        </div>
+        <div class="grid__item">
+          <h2>Checklist App</h2>
+          <img src="img/Checklist.PNG" width="350" height="275" />
+          <p>
+            Made with Vue.js framework, this simple one-page app allows users to
+            add, delete, and edit checklist items, and can even mark them as
+            completed.
+          </p>
+          <a href="https://github.com/mfraggy25/Checklist">GitHub Project</a>
+        </div>
+        <div class="grid__item">
+          <h2>Mobile web app</h2>
+          <p>
+            Within this project, I was responsible for the frontend. It’s
+            written in React.js. Additionally, I've created the HTML and CSS
+            templates.
+          </p>
+          <a href="#">See project on GitHub</a>
+        </div>
+        <div class="grid__item">
+          <h2>Mobile web app</h2>
+          <p>
+            Within this project, I was responsible for the frontend. It’s
+            written in React.js. Additionally, I've created the HTML and CSS
+            templates.
+          </p>
+          <a href="#">See project on GitHub</a>
+        </div>
+      </div>
     </section>
 
     <footer class="page-footer">
       <h2>Find me on:</h2>
-       <div class="social-media">
+      <div class="social-media">
         <a href="#">
-          <img src="img/iconfinder_github_circle_black_107161.svg" alt="Github" class="social__logo">
+          <img
+            src="img/iconfinder_github_circle_black_107161.svg"
+            alt="Github"
+            class="social__logo"
+          />
         </a>
         <a href="#">
-          <img src="img/iconfinder_twitter_circle_color_107170.svg" alt="Twitter" class="social__logo">
+          <img
+            src="img/iconfinder_twitter_circle_color_107170.svg"
+            alt="Twitter"
+            class="social__logo"
+          />
         </a>
         <a href="#">
-          <img src="img/iconfinder_linkedin_circle_color_107178.svg" alt="LinkedIn" class="social__logo">
+          <img
+            src="img/iconfinder_linkedin_circle_color_107178.svg"
+            alt="LinkedIn"
+            class="social__logo"
+          />
         </a>
         <a href="#">
-          <img src="img/iconfinder_facebook_circle_color_107175.svg" alt="Facebook" class="social__logo">
+          <img
+            src="img/iconfinder_facebook_circle_color_107175.svg"
+            alt="Facebook"
+            class="social__logo"
+          />
         </a>
         <a href="#">
-          <img src="img/iconfinder_instagram_circle_color_107172.svg" alt="Instagram" class="social__logo">
+          <img
+            src="img/iconfinder_instagram_circle_color_107172.svg"
+            alt="Instagram"
+            class="social__logo"
+          />
         </a>
       </div>
     </footer>
 
     <script src="js/tota11y.min.js"></script>
-
   </body>
-
 </html>
