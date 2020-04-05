@@ -223,6 +223,14 @@ input {
   padding: 10px;
 }
 
+.grid__item2 {
+  background-color: #d9d9d9;
+  border: 10px solid #fffaf0;
+  padding: 10px;
+  align-self: center;
+  justify-self: center;
+}
+
 .grid__item-header {
   margin-top: 10px;
   text-align: center;
