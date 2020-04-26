@@ -27,7 +27,7 @@ h3 {
 }
 
 a {
-  color: #357b70;
+  color: #0295c0;
 }
 
 a:hover,
@@ -44,11 +44,11 @@ a:focus {
 }
 
 a:active {
-  color: #489c79;
+  color: #0295c0;
 }
 
 a:focus {
-  color: #489c79;
+  color: #0295c0;
 }
 
 .button {
@@ -56,12 +56,12 @@ a:focus {
   display: inline-block;
   font-family: inherit;
   font-style: oblique;
-  background-color: #357b70;
+  background-color: #0295c0;
   color: #ffffff;
   text-decoration: none;
   padding: 10px;
   border-radius: 3px;
-  border-bottom: 2px solid rgba(0, 0, 0, 0.3);
+  border-bottom: 2px solid #0000004d;
   -webkit-transition-duration: 0.2s;
   transition-duration: 0.2s;
   -webkit-transition-property: opacity;
@@ -73,7 +73,7 @@ button {
   display: inline-block;
   font-family: inherit;
   font-style: oblique;
-  background-color: #357b70;
+  background-color: #0295c0;
   color: #ffffff;
   text-decoration: none;
   padding: 10px;
